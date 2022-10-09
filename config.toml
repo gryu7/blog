@@ -1,0 +1,4 @@
+baseURL = 'https://gryu7.github.io/blog/'
+languageCode = 'ja-jp'
+title = 'My New Hugo Site'
+theme = 'mainroad'
