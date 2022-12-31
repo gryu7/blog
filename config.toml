@@ -1,4 +1,94 @@
-baseURL = 'https://gryu7.github.io/blog/'
-languageCode = 'ja-jp'
-title = 'My New Hugo Site'
-theme = 'mainroad'
+baseURL = "https://gryu7.github.io/blog/"
+languageCode = "ja-jp"
+DefaultContentLanguage = "ja"
+title = "めいきるこつ"
+# paginate = "10" # Number of posts per page
+theme = "mainroad"
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+enableEmoji = true
+
+[Author] # Used in authorbox
+  name = "gryu7"
+  bio = "2015年からエンジニア"
+  avatar = "img/square.jpg"
+
+[Params]
+  description = "gryu7's blog" # Site description. Used in meta description
+  copyright = "gryu7" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  schema = true # Enable Schema
+  twitter_cards = false # Enable Twitter Cards if true
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["post"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  # googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
+  customCSS = ["css/custom.css"] # Include custom CSS files
+  customJS = ["js/custom.js"] # Include custom JS files
+
+  # DEPRECATED PARAMS
+  subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
+  highlightColor = "" # Deprecated in favor of .Site.Params.style.vars.highlightColor
+
+[Params.style.vars]
+  highlightColor = "#0D7E83" # Override highlight color
+
+  # Override font-family sets
+  # Take care of different quotes OR escaping symbols in these params if necessary
+  fontFamilyPrimary = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
+  # Secondary font-family set responsible for pre, code, kbd, and samp tags font
+  fontFamilySecondary = "'Courier New', SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace"
+
+[Params.logo]
+  # image = "img/square.jpg" # Logo image. Path relative to "static"
+  title = "めいきるこつ" # Logo title, otherwise will use site title
+  subtitle = "備忘録。たくさんポストできなくても自己肯定感を下げずにいきたい。" # Logo subtitle
+
+[Params.thumbnail]
+  visibility = ["list", "post"] # Control thumbnail visibility
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "taglist", "categories", "social"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  categories_counter = true # Enable counter for each category in "Categories" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  # facebook = "username"
+  # twitter = "username"
+  # instagram = "username"
+  # linkedin = "username"
+  # telegram = "username"
+  github = "gryu7"
+  # gitlab = "username"
+  # bitbucket = "username"
+  # email = "example@example.com"
+
+# Custom social links
+# [[Params.widgets.social.custom]]
+#   title = "Youtube"
+#   url = "https://youtube.com/user/username"
+#   icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+
+# [[Params.widgets.social.custom]]
+#   title = "My Home Page"
+#   url = "https://example.com"
+
+# [Params.widgets.search]
+#   url = "https://google.com/search"
+#   input.name = "sitesearch"
+#   input.pre = ""
