@@ -1,4 +1,4 @@
-baseURL = "https://gryu7.github.io/blog/"
+baseURL = "https://gryu7.github.io/blog/docs/"
 languageCode = "ja-jp"
 DefaultContentLanguage = "ja"
 title = "めいきるこつ"
@@ -7,7 +7,7 @@ theme = "mainroad"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 enableEmoji = true
-# publishDir = "docs"
+publishDir = "docs"
 canonifyurls = true
 
 [Author] # Used in authorbox
