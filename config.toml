@@ -1,4 +1,4 @@
-baseURL = "https://gryu7.github.io/blog/docs/"
+baseURL = "https://gryu7.github.io/blog/"
 languageCode = "ja-jp"
 DefaultContentLanguage = "ja"
 title = "めいきるこつ"
