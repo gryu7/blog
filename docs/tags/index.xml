@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on めいきるこつ</title>
-    <link>https://gryu7.github.io/blog/docs/tags/</link>
+    <link>https://gryu7.github.io/blog/tags/</link>
     <description>Recent content in Tags on めいきるこつ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://gryu7.github.io/blog/docs/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ja-jp</language><atom:link href="https://gryu7.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
