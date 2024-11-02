@@ -32,8 +32,13 @@ canonifyurls = true
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   # googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  customJS = ["js/custom.js"] # Include custom JS files
+  customCSS = [ # Include custom CSS files
+    # "css/custom.css",
+    "css/style.css"
+  ]
+  customJS = [ # Include custom JS files
+    # "js/custom.js"
+  ]
 
   # DEPRECATED PARAMS
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
@@ -41,7 +46,6 @@ canonifyurls = true
 
 [Params.style.vars]
   highlightColor = "#0D7E83" # Override highlight color
-
   # Override font-family sets
   # Take care of different quotes OR escaping symbols in these params if necessary
   fontFamilyPrimary = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"
