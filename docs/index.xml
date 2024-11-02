@@ -4,7 +4,9 @@
     <title>めいきるこつ</title>
     <link>https://gryu7.github.io/blog/</link>
     <description>Recent content on めいきるこつ</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ja-jp</language><atom:link href="https://gryu7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>ja-jp</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://gryu7.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
