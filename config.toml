@@ -4,11 +4,10 @@ DefaultContentLanguage = "ja"
 title = "めいきるこつ"
 # paginate = "10" # Number of posts per page
 theme = "mainroad"
-disqusShortname = "meikirukotsu" # Enable Disqus comments by entering your Disqus shortname
-googleAnalytics = "G-0QKQFB1Q2K" # Enable Google Analytics by entering your tracking id
-enableEmoji = true
 publishDir = "docs"
-canonifyurls = true
+canonifyURLs = true
+enableEmoji = true
+enableGitInfo = true
 
 [Author] # Used in authorbox
   name = "gryu7"
@@ -26,15 +25,15 @@ canonifyurls = true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["date", "categories"] # Order of post meta information
-  mainSections = ["post"] # Specify section pages to show on home page and the "Recent articles" widget
-  dateformat = "2006-01-02" # Change the format of dates
+  mainSections = ["posts"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02 15:04" # Change the format of dates
   mathjax = true # Enable MathJax
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   # googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = [ # Include custom CSS files
-    # "css/custom.css",
-    "css/style.css"
+    "css/style.css",
+    "css/custom.css",
   ]
   customJS = [ # Include custom JS files
     # "js/custom.js"
@@ -62,10 +61,10 @@ canonifyurls = true
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
+  list = "right"  # Configure layout for list pages
+  single = "right" # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "taglist", "categories", "social"]
+  widgets = ["search", "recent", "categories", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
@@ -98,3 +97,18 @@ canonifyurls = true
 #   url = "https://google.com/search"
 #   input.name = "sitesearch"
 #   input.pre = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[frontmatter]
+  lastmod = [":git", "lastmod", "publishDate", ":fileModTime"]
+
+[services]
+  [services.disqus]
+    shortname = "meikirukotsu" # Enable Disqus by entering your Disqus shortname
+  [services.googleAnalytics]
+    ID = "G-0QKQFB1Q2K" # Enable Google Analytics by entering your tracking ID
+

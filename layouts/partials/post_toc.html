@@ -1,0 +1,14 @@
+{{- if .Param "toc" }}
+{{- if gt (len .TableOfContents) 32 }}<!-- Issue #247 -->
+<div class="post__toc toc">
+    <details>
+        <summary class="toc__title">
+            Table of Contents
+        </summary>
+        <div class="toc__menu">
+            {{ .TableOfContents }}
+        </div>
+    </details>
+</div>
+{{- end }}
+{{- end }}
