@@ -1,2 +1,5 @@
 private/
-
+docs/*
+!docs/css/
+docs/css/*
+!docs/css/custom.css
