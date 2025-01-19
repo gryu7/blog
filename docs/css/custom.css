@@ -1,3 +1,36 @@
 .toc__title {
 	background: #7a8288;
 }
+
+.post__header h1 {
+	font-size: 30px;
+	font-size: 1.875rem;
+}
+
+.post__content blockquote {
+	color: #7a8288;
+}
+
+.post__content h2 {
+	font-size: 26px;
+	font-size: 1.625rem;
+	border-bottom: dashed 1px #7a8288;
+}
+
+.pseudo_h3 {
+	font-size: 20px;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+.pseudo_h4 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-weight: bold;
+}
+
+.pseudo_h5 {
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: bold;
+}
