@@ -18,18 +18,24 @@
 }
 
 .pseudo_h3 {
+	margin: 0 0 20px;
+	margin: 0 0 1.25rem;
 	font-size: 20px;
 	font-size: 1.25rem;
 	font-weight: bold;
 }
 
 .pseudo_h4 {
+	margin: 0 0 20px;
+	margin: 0 0 1.25rem;
 	font-size: 18px;
 	font-size: 1.125rem;
 	font-weight: bold;
 }
 
 .pseudo_h5 {
+	margin: 0 0 20px;
+	margin: 0 0 1.25rem;
 	font-size: 16px;
 	font-size: 1rem;
 	font-weight: bold;
