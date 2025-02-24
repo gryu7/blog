@@ -9,6 +9,7 @@ contentDir = "contents"
 canonifyURLs = true
 enableEmoji = true
 enableGitInfo = true
+enableRobotsTXT = false
 
 [Author] # Used in authorbox
   name = "gryu7"
