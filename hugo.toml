@@ -11,7 +11,7 @@ enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = false
 
-[Author] # Used in authorbox
+[Params.Author] # Used in authorbox
   name = "gryu7"
   bio = "2015年からエンジニア"
   avatar = "img/square.jpg"
