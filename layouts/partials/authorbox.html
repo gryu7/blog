@@ -2,7 +2,7 @@
 <div class="authorbox clearfix">
 	{{- if and (not .Site.Params.Author.avatar) (not .Site.Params.Author.name) (not .Site.Params.Author.bio) }}
 	<p class="authorbox__warning">
-		<strong>WARNING:</strong> Authorbox is activated, but [Author] parameters are not specified.
+		<strong>WARNING:</strong> Authorbox is activated, but [Params.Author] parameters are not specified.
 	</p>
 	{{- end }}
 	{{- with .Site.Params.Author.avatar }}
