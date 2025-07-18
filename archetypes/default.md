@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
-categories: 
+categories:
   - "{{ dateFormat "2006/01" .Date }}"
 
 draft: true
