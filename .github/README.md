@@ -8,8 +8,8 @@
     * templateからmdファイルの生成
 
      ```bash
-      $ hugo new content posts/hoge.md
-      Content "path/posts/hoge.md" created
+      $ hugo new content posts/$(date +%Y%m%d)_hoge.md
+      Content "path/posts/$(date +%Y%m%d)_hoge.md" created
       ```
 
     * 内容の記述
@@ -33,3 +33,19 @@
 * 公開ディレクトリ配下の設定
   * `hugo.toml`の`publishDir`として指定してbuildすることで`docs`ディレクトリ配下のファイルが自動生成される
     * ただし、`docs/css/custom.css`のみ直接作成している
+
+* 画像の埋め込み
+  * ../layouts/shortcodes/img.html で指定
+  * 以下のような`shortcodes`を各記事に記述する
+
+    ```markdown
+    {{< img
+      src=""  # contents/img 配下に格納した画像のファイル名
+      alt=""
+      title=""
+      attr=""
+      caption=""
+      link=""
+      attrlink=""
+    >}}
+    ```

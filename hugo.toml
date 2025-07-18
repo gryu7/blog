@@ -34,8 +34,7 @@ enableRobotsTXT = false
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
   # googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   customCSS = [ # Include custom CSS files
-    "css/style.css",
-    "css/custom.css",
+    "css/custom.css"
   ]
   customJS = [ # Include custom JS files
     # "js/custom.js"

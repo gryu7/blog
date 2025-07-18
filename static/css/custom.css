@@ -40,3 +40,26 @@
 	font-size: 1rem;
 	font-weight: bold;
 }
+
+figcaption {
+	text-align: right;
+	margin: 1px 4px 0;
+}
+
+.post_img {
+  margin: auto;
+  display: block;
+}
+
+.figure_img, .figure_img p {
+	margin: 0 0 0;
+}
+
+.figure_img {
+	border: 1px solid #ebebeb;
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+	margin: 0 20px 0;
+	margin: 0 1.25rem 0;
+}
