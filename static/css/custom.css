@@ -40,3 +40,7 @@
 	font-size: 1rem;
 	font-weight: bold;
 }
+
+figcaption {
+	text-align: right;
+}
