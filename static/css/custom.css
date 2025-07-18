@@ -46,6 +46,11 @@ figcaption {
 	margin: 1px 4px 0;
 }
 
+figcaption h5 {
+	margin: 0;
+	color: inherit;
+}
+
 .post_img {
   margin: auto;
   display: block;
@@ -60,6 +65,10 @@ figcaption {
   display: flex;
   flex-flow: column;
   padding: 0;
-	margin: 0 20px 0;
-	margin: 0 1.25rem 0;
+	margin: 0 20px 20px;
+	margin: 0 1.25rem 1.25rem;
+}
+
+body {
+	word-break: break-all;
 }

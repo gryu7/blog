@@ -4,7 +4,7 @@
     </a>
     {{ if or (or (.Get "title") (.Get "caption")) (.Get "attr") }}
     <figcaption>{{ if isset .Params "title" }}
-        <h4>{{ .Get "title" }}</h4>{{ end }}
+        <h5>{{ .Get "title" }}</h5>{{ end }}
         {{ if or (.Get "caption") (.Get "attr") }}<p>
         {{ .Get "caption" }}
         {{ if or (.Get "attrlink") (.Get "link") }}<a href="{{ with .Get "attrlink" }}{{.}}{{ else }}{{ .Get "link" }}{{ end }}" target="_blank">{{ end }}
