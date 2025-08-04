@@ -14,31 +14,83 @@
 .post__content h2 {
 	font-size: 26px;
 	font-size: 1.625rem;
+	margin: 0 0 20px;
+	margin: 0 0 1.25rem;
+	border-bottom: solid 1px #0D7E83;
+}
+
+.post__content h3 {
+	font-size: 22px;
+	font-size: 1.375rem;
+	margin: 0 0 12px;
+	margin: 0 0 0.75rem;
+	border-bottom: dashed 1px #4e8486;
+}
+
+.post__content h4 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	margin: 0 0 4px;
+	margin: 0 0 0.25rem;
 	border-bottom: dashed 1px #7a8288;
 }
 
+.post__content h5 {
+	font-size: 16px;
+	font-size: 1rem;
+	margin: 0 0 0;
+	border-bottom: dashed 1px #ebebeb;
+}
+
+.post__content h6 {
+	font-size: 16px;
+	font-size: 1rem;
+	margin: 0 0 0;
+	border-bottom: dotted 1px #ebebeb;
+}
+
 .pseudo_h3 {
-	margin: 0 0 20px;
-	margin: 0 0 1.25rem;
-	font-size: 20px;
-	font-size: 1.25rem;
+	margin: 0 0 12px;
+	margin: 0 0 0.75rem;
+	font-size: 22px;
+	font-size: 1.375rem;
 	font-weight: bold;
+	border-bottom: dashed 1px #4e8486;
 }
 
 .pseudo_h4 {
-	margin: 0 0 20px;
-	margin: 0 0 1.25rem;
+	margin: 0 0 4px;
+	margin: 0 0 0.25rem;
 	font-size: 18px;
 	font-size: 1.125rem;
 	font-weight: bold;
+	border-bottom: dashed 1px #7a8288;
 }
 
 .pseudo_h5 {
-	margin: 0 0 20px;
-	margin: 0 0 1.25rem;
+	margin: 0 0 0;
 	font-size: 16px;
 	font-size: 1rem;
 	font-weight: bold;
+	border-bottom: dashed 1px #ebebeb;
+}
+
+.pseudo_h6 {
+	margin: 0 0 0;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: bold;
+	border-bottom: dotted 1px #ebebeb;
+}
+
+summary {
+  cursor: pointer;
+}
+
+summary:hover {
+  cursor: pointer;
+  background-color: #eeeeee;
+	color: #0D7E83;
 }
 
 figcaption {
