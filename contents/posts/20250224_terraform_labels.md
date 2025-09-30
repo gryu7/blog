@@ -7,7 +7,6 @@ categories:
 
 draft: false
 
-slug: "20250224"
 thumbnail: ""
 tags:
   - "terraform"
