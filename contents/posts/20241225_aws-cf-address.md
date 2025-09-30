@@ -7,7 +7,6 @@ categories:
 
 draft: false
 
-slug: "20241225"
 thumbnail: ""
 tags:
   - "AWS"

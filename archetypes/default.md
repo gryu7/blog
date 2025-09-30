@@ -7,7 +7,6 @@ categories:
 
 draft: true
 
-slug: "{{ dateFormat "20060102" .Date }}"
 thumbnail: ""
 tags:
   - ""

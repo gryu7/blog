@@ -7,7 +7,6 @@ categories:
 
 draft: false
 
-slug: "20250120"
 thumbnail: ""
 tags:
   - "linux"
