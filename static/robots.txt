@@ -1,1 +1,2 @@
+Sitemap: https://gryu7.github.io/blog/sitemap.txt
 Sitemap: https://gryu7.github.io/blog/sitemap.xml
