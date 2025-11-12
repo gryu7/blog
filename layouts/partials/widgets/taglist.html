@@ -1,0 +1,13 @@
+{{ $tags := (.Site.Taxonomies.tags.ByCount) }}
+{{- if gt (len $tags) 0 }}
+<div class="widget-taglist widget">
+	<h4 class="widget__title">{{ T "tags_title" }}</h4>
+	<div class="widget__content">
+	{{- range sort $tags ".Count" "desc" }}
+		<a class="widget-taglist__link widget__link btn" href="{{ .Page.RelPermalink }}" title="{{ .Page.Title }}">
+			{{- .Page.Title }} ({{ .Count }})
+		</a>
+	{{- end }}
+	</div>
+</div>
+{{- end }}
