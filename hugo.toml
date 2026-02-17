@@ -92,7 +92,7 @@ enableRobotsTXT = false
 
 [[Params.widgets.social.custom]]
   title = "Credly"
-  url = "https://www.credly.com/users/ryusuke-odagiri"
+  url = "https://www.credly.com/users/gryu7"
   icon = "svg/credly.svg"
 
 # [Params.widgets.search]
